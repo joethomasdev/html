@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to code with HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <!--    This section is positioned on the top of the page and allows the user to select what they want to find.
+                The Nav element seperates this code and allows this to be fixed at the top of the page.    -->
+        <ul>
+            <li><a href="elements">Elements And Structure</a></li>
+            <li><a href="tables">Tables</a></li>
+            <li><a href="forms">Forms</a></li>
+            <li><a href="semantic">Semantic HTML</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--    This is where the content of the website for this page is located and will be further split into sections.  -->
+    <h1>How to code with HTML</h1>
+    <h2 id="title">Elements And Structure</h2>
+    <div id="structure"> 
+        <h3>HTML Structure</h3>
+        <p>HTML (HyperText Markup Language) is used to give content to a web page and instructs web browsers on how to structure that content. The content is split into sections and each element can have descendants (children) like a family tree. The descendants are spaced (or tabbed) to the right to make it easier to read the code.</p>
+    </div>
+    <div id="content">
+        <h3>HTML Content</h3>
+        <p>The content of an HTML element is the information between the opening and closing tags of an element. <br>
+        Note: Not all elements have a closing tag (img for example).
+        </p>
+    </div>
+    <div id="lists">
+        <h3>Lists</h3>
+        <p>There are two types of lists:
+            <ul>
+                <li>Ordered lists using &lt;ol&gt; and are numbered as default.</li>
+                <li>Unordered lists using &lt;ul&gt; and bullet pointed as default. </li>
+            </ul>
+            Both lists contant list item elements &lt;li&gt; to contain the content.
+        </p>
+    </div>
+    <div id="video">
+        <h3>Video Element</h3>
+        <p>The element embeds a media player for video playback. The src attribute will contain the URL to the video. Adding the controls attribute will display video controls in the media player. <br><br>
+            Note: The content inside the opening and closing tag is shown as a fallback in browsers that don't support the element.
+        </p>
+    </div>
+    <div id="emphasis">
+        <h3>Emphasis Element</h3>
+        <p>The emphasis element emphasizes text and browsers will usually italicize the emphasized text by default.
+        </p>
+    </div>
+    <div id="div">
+        <h3>Div Element</h3>
+        <p>The div element is used as a container that divides an HTML document into sections and is short for “division”. These elements can contain flow content such as headings, paragraphs, links, images, etc.
+        </p>
+    </div>
+    </main>
+    <footer>
+        <!--    This is where standard links will live. Contact Infomation. Date of publishing. Other Website Links. Etc.  -->
+        <ul>
+            <li>Contact Me</li>
+            <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">HTML Free Course</a></li>
+            <li>Published 04/05/2022</li>
+        </ul>
+
+    </footer>
+
+    
+</body>
+</html>
